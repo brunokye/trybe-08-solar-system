@@ -14,12 +14,7 @@ export default class PlanetCard extends Component {
   }
 }
 
-PlanetCard.defaultProps = {
-  planetName: '',
-  planetImage: '',
-};
-
 PlanetCard.propTypes = {
   planetName: PropTypes.string,
   planetImage: PropTypes.string,
-};
+}.isRequired;
